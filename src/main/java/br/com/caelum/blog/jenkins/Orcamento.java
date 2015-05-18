@@ -4,7 +4,7 @@ public class Orcamento {
 	private double valor;
 
 	public Orcamento(double valor) {
-		this.valor = valor;
+		this.valor = valor + 1;
 	}
 
 	public double getValor() {
